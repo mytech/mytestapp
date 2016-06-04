@@ -31,12 +31,12 @@ var app = express();
 /**
  * GitHub specific details, including application id and secret
  */
-var githubClientId = 'your-github-client-id-here';
-var githubClientSecret = 'your-github-client-secret-here';
+var githubClientId = 'ae88f45e40e4f603e5f0';
+var githubClientSecret = '17253f594995e08b054b80946bfff33654ccf93e';
 
 var githubRedirectEndpoint = 'https://github.com/login/oauth/authorize?';
 var githubValidateEndpoint = 'https://github.com/login/oauth/access_token';
-var githubUserEndpoint = 'https://api.github.com/user';
+var githubUserEndpoint = 'https://mytestapp.com';
 
 /**
  * In the Data Browser, set the Class Permissions for these 2 classes to
